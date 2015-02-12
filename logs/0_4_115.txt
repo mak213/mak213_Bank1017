@@ -1,0 +1,12 @@
+Thu Jan 22 19:26:05 EST 2015|SELECT command denied to user 'mak213'@'150.212.8.208' for table 'account'
+Thu Jan 22 19:26:05 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'
+Thu Jan 22 19:26:16 EST 2015|SELECT command denied to user 'mak213'@'150.212.8.208' for table 'account'
+Thu Jan 22 19:26:16 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'
+Thu Jan 22 19:26:35 EST 2015|SELECT command denied to user 'mak213'@'150.212.8.208' for table 'account'
+Thu Jan 22 19:26:35 EST 2015|SELECT * FROM bank1017.account WHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d'
+Thu Jan 22 20:17:48 EST 2015|Invalid Number
+Thu Jan 22 20:17:48 EST 2015|For input string: "q"
+Thu Jan 29 13:45:32 EST 2015|Invalid Number
+Thu Jan 29 13:45:32 EST 2015|null
+Thu Jan 29 18:17:29 EST 2015|Invalid Number
+Thu Jan 29 18:17:29 EST 2015|null

@@ -1,0 +1,108 @@
+Tue Feb 10 13:35:56 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Tue Feb 10 13:35:56 EST 2015|SELECT * FROM mak213_bank1017.transaction;WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d' ;
+Tue Feb 10 13:36:18 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Tue Feb 10 13:36:18 EST 2015|SELECT * FROM mak213_bank1017.transaction;WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d' ;
+Tue Feb 10 13:49:37 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Tue Feb 10 13:49:37 EST 2015|SELECT * FROM mak213_bank1017.transaction;WHERE accountID ='00ae9c2a-5d43-11e3-94ef-97beef767f1d' ;
+Tue Feb 10 13:50:33 EST 2015|null
+Tue Feb 10 13:50:33 EST 2015|SELECT * FROM mak213_bank1017.transaction WHERE accountID ='537b0458-5d42-11e3-94ef-97beef767f1d' ;
+Tue Feb 10 13:50:33 EST 2015|null
+Tue Feb 10 13:50:33 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('437940b8-7d44-4987-b8d6-b24e85f7158d', '537b0458-5d42-11e3-94ef-97beef767f1d', 0.0, CURDATE(), 'checking', 3236.0);
+Tue Feb 10 13:50:53 EST 2015|null
+Tue Feb 10 13:50:53 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Tue Feb 10 13:54:08 EST 2015|null
+Tue Feb 10 13:54:08 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Tue Feb 10 15:41:28 EST 2015|null
+Tue Feb 10 15:41:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('9590b202-e797-44b3-a892-1eece9fa0ff2', '3e8a08fa-5d42-11e3-94ef-97beef767f1d', 0.0, CURDATE(), 'checking', 303000.0);
+Tue Feb 10 15:41:28 EST 2015|null
+Tue Feb 10 15:41:28 EST 2015|SELECT * FROM mak213_bank1017.account WHERE accountID = '537b0458-5d42-11e3-94ef-97beef767f1d'; 
+Tue Feb 10 15:41:28 EST 2015|Invalid pin was entered
+Tue Feb 10 15:41:28 EST 2015|null
+Tue Feb 10 15:47:22 EST 2015|null
+Tue Feb 10 15:47:22 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Tue Feb 10 15:47:22 EST 2015|Invalid pin was entered
+Tue Feb 10 15:47:22 EST 2015|null
+Tue Feb 10 15:51:17 EST 2015|null
+Tue Feb 10 15:51:17 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'flawson' AND pin = '4218' ;
+Tue Feb 10 15:51:17 EST 2015|Invalid pin was entered
+Tue Feb 10 15:51:17 EST 2015|null
+Tue Feb 10 15:51:25 EST 2015|null
+Tue Feb 10 15:51:25 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'flawson' AND pin = '4218' ;
+Tue Feb 10 15:51:25 EST 2015|Invalid pin was entered
+Tue Feb 10 15:51:25 EST 2015|null
+Tue Feb 10 15:51:27 EST 2015|null
+Tue Feb 10 15:51:27 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'flawson' AND pin = '4218' ;
+Tue Feb 10 15:51:27 EST 2015|Invalid pin was entered
+Tue Feb 10 15:51:27 EST 2015|null
+Tue Feb 10 15:51:54 EST 2015|null
+Tue Feb 10 15:51:54 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'flawson' AND pin = '4218' ;
+Tue Feb 10 15:51:54 EST 2015|Invalid pin was entered
+Tue Feb 10 15:51:54 EST 2015|null
+Tue Feb 10 15:58:28 EST 2015|null
+Tue Feb 10 15:58:28 EST 2015|SELECT accountID FROM account
+Tue Feb 10 15:58:28 EST 2015|Invalid pin was entered
+Tue Feb 10 15:58:28 EST 2015|null
+Tue Feb 10 15:59:20 EST 2015|null
+Tue Feb 10 15:59:20 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Tue Feb 10 15:59:20 EST 2015|Invalid pin was entered
+Tue Feb 10 15:59:20 EST 2015|null
+Tue Feb 10 17:56:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('2e7cd853-4d19-4693-bbd0-9028a4f6eb42', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('f2ed0a52-09b5-4c14-bce4-ebf5381548db', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('984332ff-9792-4b54-8b32-459eea323ad2', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('ca4a0b59-c9c1-4f7a-8703-449f9a5cef03', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('5dec7aca-946b-41af-960a-c736a6f0372b', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('3cf24ba5-aedc-4049-9298-7a41f70b4a7e', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('01449546-14a4-4750-bfd5-07c0ccd810a0', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('cb824a8e-8e3c-4c87-94d5-711dfe7d7320', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 17:56:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('07945794-c9b3-4968-ab8d-aa85151ca756', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|null
+Tue Feb 10 17:56:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('19f8181b-333b-4741-a443-adb4937f4d77', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 17:56:29 EST 2015|null
+Tue Feb 10 17:56:29 EST 2015|SELECT * FROM mak213_bank1017.account WHERE accountID = 'accountID'; 
+Tue Feb 10 18:00:45 EST 2015|null
+Tue Feb 10 18:00:45 EST 2015|SELECT * FROM account
+Tue Feb 10 18:04:27 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:27 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('ed8b5903-74d6-48e6-aef6-624048e8afef', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:27 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:27 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('ba9778b5-502b-4d8d-996c-5aebb6207af6', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:27 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:27 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('5e2bd5e8-74b6-4d67-b6b4-3a07969b4570', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:27 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:27 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('ec727c4e-6fd7-4290-927c-bd8eed2aebcf', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('9e3f54e7-b0ff-4b6e-b102-3c23a9ecf387', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('e5f49d79-fd3d-482e-870a-6d258e372527', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('f199a3cc-ef30-4212-8dc8-a8849ba3dbdd', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('d6461566-bae2-41be-8444-bcd64968a963', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('8e24c16e-de1a-49d5-8e50-d1d46abd3038', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('7a9e05e2-2a52-47ad-9c4e-4708999cf646', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('431c83ca-e4ff-4b33-9ba4-d5a6353ba883', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:28 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('4a6e2262-ac50-4ea3-9904-89e24ea5f18f', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:29 EST 2015|Cannot add or update a child row: a foreign key constraint fails (`mak213_bank1017`.`transaction`, CONSTRAINT `fk_Transaction_AccountID` FOREIGN KEY (`accountID`) REFERENCES `account` (`accountID`) ON DELETE CASCADE ON UPDATE CASCADE)
+Tue Feb 10 18:04:29 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('8ca39a47-fb49-43eb-8770-2a9822cc6e7d', 'null', 0.0, CURDATE(), 'null', 0.0);
+Tue Feb 10 18:04:29 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT accountID, type, balance, interestRate, penalty, status, dateOpen, custom' at line 1
+Tue Feb 10 18:04:29 EST 2015|SELECT * FROM account JOIN customer_account ON accountId = fk_accountId JOIN customer ON fk_customerId = customerId; SELECT accountID, type, balance, interestRate, penalty, status, dateOpen, customerID, lastName, firstName, ssn, streetAddress, city, state, zip, loginName, pin FROM account JOIN customer_account ON accountId = fk_accountId JOIN customer ON fk_customerId = customerId;
+Tue Feb 10 18:04:51 EST 2015|null
+Tue Feb 10 18:04:51 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE customerID = '01b9f986-5d41-11e3-94ef-97beef767f1d' ;
+Tue Feb 10 18:04:51 EST 2015|Invalid pin was entered
+Tue Feb 10 18:04:51 EST 2015|null
+Tue Feb 10 18:05:13 EST 2015|null
+Tue Feb 10 18:05:13 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Tue Feb 10 18:05:13 EST 2015|Invalid pin was entered
+Tue Feb 10 18:05:13 EST 2015|null

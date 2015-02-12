@@ -1,0 +1,12 @@
+Thu Feb 12 09:31:29 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d' ORDER BY transactionDate ASC' at line 1
+Thu Feb 12 09:31:29 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d' ORDER BY transactionDate ASC ;
+Thu Feb 12 09:31:29 EST 2015|Unable to display transactions
+Thu Feb 12 09:31:29 EST 2015|null
+Thu Feb 12 11:00:24 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '> 0 ORDER BY transactionDate DESC' at line 1
+Thu Feb 12 11:00:24 EST 2015|SELECT accountID, amount, transactionDate, type, balance FROM transactionWHERE amount > 0 ORDER BY transactionDate DESC ;
+Thu Feb 12 11:00:24 EST 2015|Unable to display transactions
+Thu Feb 12 11:00:24 EST 2015|null
+Thu Feb 12 11:01:07 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '> 0.0 ORDER BY transactionDate DESC' at line 1
+Thu Feb 12 11:01:07 EST 2015|SELECT accountID, amount, transactionDate, type, balance FROM transactionWHERE amount > 0.0 ORDER BY transactionDate DESC ;
+Thu Feb 12 11:01:07 EST 2015|Unable to display transactions
+Thu Feb 12 11:01:07 EST 2015|null

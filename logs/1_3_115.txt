@@ -1,0 +1,38 @@
+Wed Feb 11 13:31:42 EST 2015|null
+Wed Feb 11 13:31:42 EST 2015|SELECT * FROM mak213_bank1017.customer WHERE loginName = 'nmarcus' AND pin = '8125' ;
+Wed Feb 11 13:31:42 EST 2015|Invalid pin was entered
+Wed Feb 11 13:31:42 EST 2015|null
+Wed Feb 11 14:09:28 EST 2015|null
+Wed Feb 11 14:09:28 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('8fd3cb7b-72f0-4ed6-8787-88df436f1930', 'f9b7cf4a-5d42-11e3-94ef-97beef767f1d', 0.0, CURDATE(), 'savings', 4548563.0);
+Wed Feb 11 14:09:30 EST 2015|null
+Wed Feb 11 14:09:30 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transaction;
+Wed Feb 11 14:09:34 EST 2015|null
+Wed Feb 11 14:09:34 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transaction;
+Wed Feb 11 18:01:51 EST 2015|null
+Wed Feb 11 18:01:51 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('da9f2815-6dd5-476f-a80d-421bc8c2c289', 'e6274ca4-5d41-11e3-94ef-97beef767f1d', 0.0, CURDATE(), 'checking', 43243.0);
+Wed Feb 11 18:01:51 EST 2015|Invalid pin was entered
+Wed Feb 11 18:01:51 EST 2015|null
+Wed Feb 11 18:28:15 EST 2015|null
+Wed Feb 11 18:28:15 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transaction;
+Wed Feb 11 18:59:38 EST 2015|null
+Wed Feb 11 18:59:38 EST 2015|SELECT * FROM mak213_bank1017.account WHERE accountID = 'f9b7cf4a-5d42-11e3-94ef-97beef767f1d'; 
+Wed Feb 11 18:59:38 EST 2015|Invalid pin was entered
+Wed Feb 11 18:59:38 EST 2015|null
+Wed Feb 11 20:18:10 EST 2015|Invalid pin was entered
+Wed Feb 11 20:18:10 EST 2015|For input string: ""
+Wed Feb 11 20:18:12 EST 2015|Invalid pin was entered
+Wed Feb 11 20:18:12 EST 2015|For input string: ""
+Wed Feb 11 20:18:19 EST 2015|Invalid pin was entered
+Wed Feb 11 20:18:19 EST 2015|For input string: "a"
+Wed Feb 11 20:34:15 EST 2015|null
+Wed Feb 11 20:34:15 EST 2015|INSERT INTO mak213_bank1017.transaction (transactionID, accountID, amount, transactionDate, type, balance)  VALUES ('2a1134e4-f78d-484f-ad95-3f1e2fafd91d', 'eff30178-5d42-11e3-94ef-97beef767f1d', 0.0, CURDATE(), 'checking', 489100.72);
+Wed Feb 11 20:34:15 EST 2015|Invalid pin was entered
+Wed Feb 11 20:34:15 EST 2015|null
+Wed Feb 11 20:53:33 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Wed Feb 11 20:53:33 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Wed Feb 11 20:53:33 EST 2015|Unable to display transactions
+Wed Feb 11 20:53:33 EST 2015|null
+Wed Feb 11 20:54:16 EST 2015|You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '00ae9c2a-5d43-11e3-94ef-97beef767f1d'' at line 1
+Wed Feb 11 20:54:16 EST 2015|SELECT accountID AS 'Account Number', amount AS Amount, transactionDate AS 'Date', type AS 'Type', balance AS 'Balance' FROM transactionWHERE accountID = '00ae9c2a-5d43-11e3-94ef-97beef767f1d';
+Wed Feb 11 20:54:16 EST 2015|Unable to display transactions
+Wed Feb 11 20:54:16 EST 2015|null
